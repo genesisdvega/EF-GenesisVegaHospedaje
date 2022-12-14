@@ -1,0 +1,7 @@
+use db_genesis;
+insert into hospedaje (nombre) values('Cielo 3');
+insert into hospedaje (nombre) values('Las duanas');
+insert into reserva (costo) values(20.50);
+insert into reserva (costo) values(40.50);
+insert into turista (direccion,nombre_turista,nro_celular) values('Av. Malecon checa 1000', 'Josue Bermejo','955378523');
+insert into turista (direccion,nombre_turista,nro_celular) values('Av. Malecon checa 750', 'Aldair Bermejo','923378565');
